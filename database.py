@@ -97,7 +97,7 @@ if existe:
     insertar_lista_profesionales(ruta_base,profesionales) 
     insertar_lista_contratista(ruta_base,contratistas) 
 
-#LEER LA BASE DE DATOS 
+
 
  
 def ver_profesionales(ruta_b): 
