@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     return "¡Bienvenido al Mercado de Trabajo! Aquí, los contratistas pueden publicar ofertas de empleo y los profesionales pueden ofrecer sus servicios."
 
-# Rutas para contratistas
+
 @app.route("/contratistas")
 def get_contratistas():
     contratistas = ver_contratistas('base1.db')
